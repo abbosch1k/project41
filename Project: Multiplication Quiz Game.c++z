@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main() {
+    int a = rand()%10, b = rand()%10;
+    int ans;
+
+    cout << a << " * " << b << " = ";
+    cin >> ans;
+
+    if (ans == a*b) cout << "Correct";
+    else cout << "Wrong";
+}
